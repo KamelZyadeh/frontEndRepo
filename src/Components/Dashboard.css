@@ -1,0 +1,313 @@
+.pageCords {
+    width: 100%;
+    height: 100%;
+}
+
+.VuesaxEcommerceDashboard {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.VerticalMenu {
+    width: 280px;
+    height: 100%;
+    background: black;
+}
+
+.Dashboard {
+    margin: 10px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+ }
+
+.topDiv {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.Navbar {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    margin: auto;
+    background: #2B3253;
+    display: flex;
+}
+
+.breadCrumbs {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    background: #2B3253;
+}
+/*.settings {*/
+/*    float: right;*/
+/*    width: 18px;*/
+/*    height: 18px;*/
+/*    left: 1541px;*/
+/*    top: 12px;*/
+/*}*/
+/*.ovals {*/
+/*    position: relative;*/
+/*    z-index: 2;*/
+/*    left: 98.6%;*/
+/*    right: 1.08%;*/
+/*    top: 45%;*/
+/*    bottom: 42.5%;*/
+/*    border: 2px  #FFFFFF;*/
+/*}*/
+/*.oval {*/
+/*    position: absolute;*/
+/*    z-index: 1;*/
+/*    float: right;*/
+/*    right: 0%;*/
+/*    top: 0%;*/
+/*    bottom: 0%;*/
+/*}*/
+
+.SubscribersCardAndFilters {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.Fealter {
+    width: 100%;
+}
+.filters {
+    font-family: Montserrat;
+    flex: 1;
+    /*color: #FFFFFF;*/
+    /*float: left;*/
+    margin: 0;
+}
+
+.subscribersCard {
+    width: 100%;
+    height: 100%;
+    background: #0F1642;
+    padding: 10px;
+}
+.SCInnerElements {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.multiRange {
+    display: flex;
+    flex-flow: column;
+}
+.multiRangeText {
+    color: #FFFFFF
+}
+.firstOption {
+    display: flex;
+    flex-flow: row;
+}
+.firstOption input[type="radio"] {
+    appearance: none;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 6px;
+    background-clip: content-box;
+    border:2px solid white;
+    border-radius: 50%;
+}
+.firstOption label {
+    color: #FFFFFF;
+}
+.firstOption input[type="radio"]:before {
+        background: #0F1642;
+}
+.firstOption input[type="radio"]:checked {
+    background: #6F64F8;
+}
+
+.topPart {
+    display: flex;
+    flex-flow: column;
+}
+.Slider p{
+    margin-top: 0px;
+    display: flex;
+    flex-flow: row;
+}
+.slid {
+    margin-right: 69px;
+}
+.a {
+    display: flex;
+    margin: auto;
+}
+
+.slider{
+    width: 100%;
+}
+.rangeSlider {
+    /*appearance: none;*/
+    width: 100%;
+    background: content-box;
+    outline: none;
+    transition: opacity 0.2s;
+}
+.rangeSlider input[type="range"] {
+
+}
+.rangeSlider::-webkit-slider-thumb {
+    /*-webkit-appearance: none;*/
+    /*appearance: none;*/
+    width: 10px;
+    height: 10px;
+    background: #6F64F8;
+    cursor: pointer;
+}
+.dashboardBlock {
+    width: 100%;
+    height: 100%;
+}
+.dashboardBlock section {
+    width: 100%;
+    height: 50px;
+}
+
+/*.firstOption input[type="radio"]:after {*/
+/*    */
+/*}*/
+
+
+/*input[type="radio"]:checked {*/
+/*    background: #2B3253;*/
+/*}*/
+/*.firstOption {*/
+/*    background-color: #0F1642;*/
+/*    cursor: default;*/
+/*    box-sizing: border-box;*/
+/*    margin: 3px 3px 0px 5px;*/
+/*    padding: initial;*/
+/*    border: white;*/
+/*    border-radius: 50%  ;*/
+/*}*/
+
+.secondOption {
+    color: #FFFFFF
+}
+.thirdOption {
+    color: #FFFFFF
+}
+.fourthOption {
+    color: #FFFFFF
+}
+.fifthOption {
+    color: #FFFFFF
+}
+/*.Results {*/
+/*    width: 230px;*/
+/*    height: 21px;*/
+/*    margin-top: 51px;*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*}*/
+/*.resultText {*/
+/*    size: 18px;*/
+/*    height: 21px;*/
+/*    margin-left: 0px;*/
+/*    margin-right: 0px;*/
+/*    margin-top: 0px;*/
+/*    margin-bottom: 0px;*/
+/*    top: calc(50% - 22px/2 + 0.5px);*/
+/*    font-family: Montserrat;*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    font-size: 18px;*/
+/*    line-height: 22px;*/
+/*    !* identical to box height *!*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+/*.DefaultDD {*/
+/*    position: absolute;*/
+/*    width: 7%;*/
+/*    height: 2.04%;*/
+/*    left: 86%;*/
+/*    top: 9.336%;*/
+/*}*/
+
+/*.GridView {*/
+/*    position: absolute;*/
+/*    width: 2%;*/
+/*    height: 2.04%;*/
+/*    left: 93.38%;*/
+/*    top: 9.336%;*/
+/*}*/
+/*.GridView.grid {*/
+/*    position: absolute;*/
+/*    width: 0.83%;*/
+/*    height: 16px;*/
+/*    left: 94%;*/
+/*    top: 195px;*/
+/*    display: block;*/
+/*}*/
+/*.grid.Rectangle {*/
+/*    position: absolute;*/
+/*    width: 6px;*/
+/*    height: 6px;*/
+/*    left: 94%;*/
+/*    top: 205px;*/
+/*    border: 2px solid #2B3253;*/
+/*}*/
+/*.grid.Rectangle1 {*/
+/*    position: absolute;*/
+/*    width: 6px;*/
+/*    height: 6px;*/
+/*    left: 94.53%;*/
+/*    top: 205px;*/
+/*    border: 2px solid #2B3253;*/
+/*}*/
+/*.grid.Rectangle2 {*/
+/*    position: absolute;*/
+/*    width: 6px;*/
+/*    height: 6px;*/
+/*    left: 94.53%;*/
+/*    top: 195px;*/
+/*    border: 2px solid #2B3253;*/
+/*}*/
+/*.grid.Rectangle3 {*/
+/*    position: absolute;*/
+/*    width: 6px;*/
+/*    height: 6px;*/
+/*    left: 94%;*/
+/*    top: 195px;*/
+/*    border: 2px solid #2B3253;*/
+/*}*/
+/*.GridView.AlgoliaSearch {*/
+/*    position: absolute;*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    left: 93.38%;*/
+/*    top: 183px;*/
+/*    background: #FFFFFF;*/
+/*    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);*/
+/*    border-radius: 8px;*/
+/*}*/
+
+/*.ListView{*/
+/*    position: absolute;*/
+/*    width: 2.08%;*/
+/*    height: 40px;*/
+/*    left: 96.14%;*/
+/*    top: 183px;*/
+/*}*/
+/*.ListView.list {*/
+/*    position: absolute;*/
+/*    width: 13px;*/
+/*    height: 14px;*/
+/*    left: 1860px;*/
+/*    top: 196px;*/
+/*}*/
