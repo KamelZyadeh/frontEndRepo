@@ -45,30 +45,6 @@
     flex: 1;
     background: #2B3253;
 }
-/*.settings {*/
-/*    float: right;*/
-/*    width: 18px;*/
-/*    height: 18px;*/
-/*    left: 1541px;*/
-/*    top: 12px;*/
-/*}*/
-/*.ovals {*/
-/*    position: relative;*/
-/*    z-index: 2;*/
-/*    left: 98.6%;*/
-/*    right: 1.08%;*/
-/*    top: 45%;*/
-/*    bottom: 42.5%;*/
-/*    border: 2px  #FFFFFF;*/
-/*}*/
-/*.oval {*/
-/*    position: absolute;*/
-/*    z-index: 1;*/
-/*    float: right;*/
-/*    right: 0%;*/
-/*    top: 0%;*/
-/*    bottom: 0%;*/
-/*}*/
 
 .SubscribersCardAndFilters {
     width: 25%;
@@ -82,8 +58,6 @@
 .filters {
     font-family: Montserrat;
     flex: 1;
-    /*color: #FFFFFF;*/
-    /*float: left;*/
     margin: 0;
 }
 
@@ -151,7 +125,6 @@
     width: 100%;
 }
 .rangeSlider {
-    /*appearance: none;*/
     width: 100%;
     background: content-box;
     outline: none;
@@ -161,8 +134,6 @@
 
 }
 .rangeSlider::-webkit-slider-thumb {
-    /*-webkit-appearance: none;*/
-    /*appearance: none;*/
     width: 10px;
     height: 10px;
     background: #6F64F8;
@@ -177,24 +148,6 @@
     height: 50px;
 }
 
-/*.firstOption input[type="radio"]:after {*/
-/*    */
-/*}*/
-
-
-/*input[type="radio"]:checked {*/
-/*    background: #2B3253;*/
-/*}*/
-/*.firstOption {*/
-/*    background-color: #0F1642;*/
-/*    cursor: default;*/
-/*    box-sizing: border-box;*/
-/*    margin: 3px 3px 0px 5px;*/
-/*    padding: initial;*/
-/*    border: white;*/
-/*    border-radius: 50%  ;*/
-/*}*/
-
 .secondOption {
     color: #FFFFFF
 }
@@ -207,107 +160,3 @@
 .fifthOption {
     color: #FFFFFF
 }
-/*.Results {*/
-/*    width: 230px;*/
-/*    height: 21px;*/
-/*    margin-top: 51px;*/
-/*    margin-right: auto;*/
-/*    margin-left: auto;*/
-/*}*/
-/*.resultText {*/
-/*    size: 18px;*/
-/*    height: 21px;*/
-/*    margin-left: 0px;*/
-/*    margin-right: 0px;*/
-/*    margin-top: 0px;*/
-/*    margin-bottom: 0px;*/
-/*    top: calc(50% - 22px/2 + 0.5px);*/
-/*    font-family: Montserrat;*/
-/*    font-style: normal;*/
-/*    font-weight: normal;*/
-/*    font-size: 18px;*/
-/*    line-height: 22px;*/
-/*    !* identical to box height *!*/
-/*    color: #FFFFFF;*/
-/*}*/
-
-/*.DefaultDD {*/
-/*    position: absolute;*/
-/*    width: 7%;*/
-/*    height: 2.04%;*/
-/*    left: 86%;*/
-/*    top: 9.336%;*/
-/*}*/
-
-/*.GridView {*/
-/*    position: absolute;*/
-/*    width: 2%;*/
-/*    height: 2.04%;*/
-/*    left: 93.38%;*/
-/*    top: 9.336%;*/
-/*}*/
-/*.GridView.grid {*/
-/*    position: absolute;*/
-/*    width: 0.83%;*/
-/*    height: 16px;*/
-/*    left: 94%;*/
-/*    top: 195px;*/
-/*    display: block;*/
-/*}*/
-/*.grid.Rectangle {*/
-/*    position: absolute;*/
-/*    width: 6px;*/
-/*    height: 6px;*/
-/*    left: 94%;*/
-/*    top: 205px;*/
-/*    border: 2px solid #2B3253;*/
-/*}*/
-/*.grid.Rectangle1 {*/
-/*    position: absolute;*/
-/*    width: 6px;*/
-/*    height: 6px;*/
-/*    left: 94.53%;*/
-/*    top: 205px;*/
-/*    border: 2px solid #2B3253;*/
-/*}*/
-/*.grid.Rectangle2 {*/
-/*    position: absolute;*/
-/*    width: 6px;*/
-/*    height: 6px;*/
-/*    left: 94.53%;*/
-/*    top: 195px;*/
-/*    border: 2px solid #2B3253;*/
-/*}*/
-/*.grid.Rectangle3 {*/
-/*    position: absolute;*/
-/*    width: 6px;*/
-/*    height: 6px;*/
-/*    left: 94%;*/
-/*    top: 195px;*/
-/*    border: 2px solid #2B3253;*/
-/*}*/
-/*.GridView.AlgoliaSearch {*/
-/*    position: absolute;*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    left: 93.38%;*/
-/*    top: 183px;*/
-/*    background: #FFFFFF;*/
-/*    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);*/
-/*    border-radius: 8px;*/
-/*}*/
-
-/*.ListView{*/
-/*    position: absolute;*/
-/*    width: 2.08%;*/
-/*    height: 40px;*/
-/*    left: 96.14%;*/
-/*    top: 183px;*/
-/*}*/
-/*.ListView.list {*/
-/*    position: absolute;*/
-/*    width: 13px;*/
-/*    height: 14px;*/
-/*    left: 1860px;*/
-/*    top: 196px;*/
-/*}*/

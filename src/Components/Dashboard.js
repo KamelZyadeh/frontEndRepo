@@ -58,26 +58,6 @@ class Dashboard extends Component{
                                 <aside className={"SCInnerElements"}>
                                     <span className={"multiRange"}>
                                         <p className={"multiRangeText"}>Multi Range</p>
-                                        {/*<span className={"firstOption"} ontoggle={true}>*/}
-                                        {/*    <input type="radio" id={"10$"} name={"bttn"} checked={"checked"}/>*/}
-                                        {/*    <label htmlFor={"10$"}> 10$</label>*/}
-                                        {/*</span>*/}
-                                        {/*<span className={"firstOption"}>*/}
-                                        {/*    <input type={"radio"} id={"to100$"} name={"bttn"} checked={"checked"}/>*/}
-                                        {/*    <label htmlFor={"to100$"}> 10-100$</label>*/}
-                                        {/*</span>*/}
-                                        {/*<span className={"firstOption"}>*/}
-                                        {/*    <input type={"radio"} id={"frm100to500$"} name={"bttn"} checked={"checked"}/>*/}
-                                        {/*    <label htmlFor={"frm100to500$"}> 100-500$</label>*/}
-                                        {/*</span>*/}
-                                        {/*<span className={"firstOption"}>*/}
-                                        {/*    <input type={"radio"} id={"500$"} name={"bttn"} checked={"checked"}/>*/}
-                                        {/*    <label htmlFor={"500$"}> 500$</label>*/}
-                                        {/*</span>*/}
-                                        {/*<span className={"firstOption"} >*/}
-                                        {/*    <input type={"radio"} id={"all"} name={"bttn"} checked={"checked"}/>*/}
-                                        {/*    <label htmlFor={"all"}> all</label>*/}
-                                        {/*</span>*/}
                                         {this.state.abc.map((t, i) => <input value={t.price} type={"radio"} />)}
                                     </span>
                                     <div className={"Slider"}>
@@ -97,31 +77,6 @@ class Dashboard extends Component{
                                 </aside>
                             </div>
                         </section>
-                        {/*    <div className={"Results"}>*/}
-                        {/*        <p className={"resultText"}>7618 results found in 5ms</p>*/}
-                        {/*    </div>*/}
-                        {/*<select className={"DefaultDD"}>*/}
-                        {/*    <option value={"default"}>def</option>*/}
-                        {/*    <option value={"A"}>A</option>*/}
-                        {/*    <option value={"B"}>B</option>*/}
-                        {/*</select>*/}
-                        {/*<div className={"GridView"}>*/}
-                        {/*    <div className={"grid"}>*/}
-                        {/*        <div className={"Rectangle"}></div>*/}
-                        {/*        <div className={"Rectangle1"}></div>*/}
-                        {/*        <div className={"Rectangle2"}></div>*/}
-                        {/*        <div className={"Rectangle3"}></div>*/}
-                        {/*    </div>*/}
-                        {/*    <div className={"AlgoliaSearch"}></div>*/}
-                        {/*</div>*/}
-                        {/*<div className={"ListView"}>*/}
-                        {/*    <div className={"list"}>*/}
-                        {/*        <div className={"path"}></div>*/}
-                        {/*        <div className={"path1"}></div>*/}
-                        {/*        <div className={"path2"}></div>*/}
-                        {/*    </div>*/}
-                        {/*    <div className={"AlgoliaSearch"}></div>*/}
-                        {/*</div>*/}
                     </section>
                 </div>
             </div>
